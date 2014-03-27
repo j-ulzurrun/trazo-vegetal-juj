@@ -5,3 +5,9 @@ h1{
 	position: absolute;
 	color: red;
 }
+
+p{
+	font-family: Georgia;
+	font-size: 12px;
+	color: rgba(00,20,30,00);
+}
