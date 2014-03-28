@@ -48,7 +48,7 @@ body {
 
 .skrollr-desktop #scrollbar {display:none;}
 
-#docas, #follaje {
+#bg1, #bg2, #bg3 {
 	z-index:50;
 	top:0;
 	left:0;
@@ -57,14 +57,14 @@ body {
 	background:url(images/bubbles.png) repeat 0 0;
 }
 
-#docas {
+#bg2 {
 	z-index:49;
-	background-image:url(img/docas1.svg);
+	background-image:url(images/bubbles2.png);
 }
 
-#follaje {
-	z-index:49;
-	background-image:url(img/follaje1.svg);
+#bg3 {
+	z-index:48;
+	background-image:url(images/bubbles3.png);
 }
 
 #easing_wrapper {
