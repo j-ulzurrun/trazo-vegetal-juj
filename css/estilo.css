@@ -17,8 +17,18 @@ body{
 	margin-right: 150px;
 }
 
+body {
+	background: #eeeeee;
+	background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: linear-gradient(top, #eeeeee, #cccccc 100%);
+	background-attachment:fixed;
+}
+
 #progress {
-	height:2%;
+	height:1%;
 	background:#444;
 	bottom:0;
 	z-index:200;
