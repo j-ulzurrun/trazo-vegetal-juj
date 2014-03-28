@@ -1,18 +1,18 @@
 h1{
 	font-family: Georgia;
 	font-size: 16px;
-	text-align: center;
-	color: red;
+	text-align: left;
+	color: #2E3F35;
 }
 
 p{
 	font-family: Georgia;
 	font-size: 12px;
-	color: rgba(30,20,30,70);
+	color: #5A5931;
 }
 
 body{
-	background-color: black;
+	background-color: #F4F4F2;
 	margin-left: 150px;
 	margin-right: 150px;
 	position: absolute;
