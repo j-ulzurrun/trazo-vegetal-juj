@@ -48,12 +48,12 @@ body{
 	background:url(images/bubbles.png) repeat 0 0;
 }
 
-#docas{
+#docas {
 	z-index:49;
 	background-image:url(img/docas1.svg);
 }
 
-#follaje{
+#follaje {
 	z-index:49;
 	background-image:url(img/follaje1.svg);
 }
