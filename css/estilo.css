@@ -1,3 +1,5 @@
+@import
+
 h1{
 	font-family: Georgia;
 	font-size: 16px;
@@ -13,18 +15,8 @@ p{
 }
 
 body{
-	margin-left: 150px;
-	margin-right: 150px;
-}
-
-body {
-	background: #eeeeee;
-	background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: linear-gradient(top, #eeeeee, #cccccc 100%);
-	background-attachment:fixed;
+	background-image:url('img/lightpaperfibers.png');
+	background-color:#cccccc;
 }
 
 #progress {
