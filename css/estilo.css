@@ -1,22 +1,26 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300ital;ic,400italic,400,300,700,800);
 
 body{
 	background-image:url('file:///D:/Encargos/Cuarto/Sitios/trazo-vegetal-juj/img/fondo.png');
-	background-color: 
+	margin: 20%;
 }
 
 h1{
+	color:rgba(60, 100, 65, 0.2);
 	font-family: Open Sans;
 	font-weight: 800;
 	font-size: 8em;
 	text-align: left;
-	color: #2E3F35;
+	padding-bottom: calc(-10%);
+    text-indent: 32%
 }
 
 h2{
+	color: #801C30;
 	font-family: Open Sans;
-	font-size: 4em;
-	font-weight: 700;
+	font-size: 2em;
+	font-weight: 400;
+	padding-bottom: calc(10%)
 }
 
 p{
@@ -116,7 +120,7 @@ footer{
 }
 
 .skrollable .skrollable .skrollable {
-	/*
+	/*	
 	 * Third-level (and below) skrollables are positioned static
 	 */
 	position:static;
