@@ -5,8 +5,12 @@ body{
 	margin: 0%;
 }
 
-h1, h2, h3, p, a, header{
+h1, h2, h3, p, a, header, nav, ul, li{
 	font-family: Open Sans;
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 header{
@@ -24,6 +28,7 @@ header{
     top: 0;
     width: 100%;
     z-index: 10000;
+    display: block;
 }
 
 h1{
@@ -34,6 +39,21 @@ h1{
 	padding-bottom: calc(-10%);
  }
 
+ #logo {
+ 	height: 3em;
+    left: 1em;
+    letter-spacing: -1px;
+    line-height: 1.3em;
+    position: absolute;
+    top: 0;
+    font-weight: 800;
+    font-size: 2em;
+    vertical-align: baseline;
+}
+
+#nav {
+
+}
 h2{
 	color: #801C30;
 	font-size: 2em;
