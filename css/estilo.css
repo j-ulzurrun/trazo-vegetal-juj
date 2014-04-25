@@ -5,15 +5,25 @@ body{
 	margin: 0%;
 }
 
-h1, h2, h3{
+h1, h2, h3, p, a, header{
 	font-family: Open Sans;
 }
 
 header{
-	margin: 2% 10% 20%;
-	background: url('file:///D:/Encargos/Cuarto/Sitios/trazo-vegetal-juj/img/docas 1.png');
-	background-position: center;
-	background-size: 70%;
+	margin-bottom:1em;
+	display:block;
+}
+
+#header{
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+    height: 3em;
+    left: 0;
+    line-height: 3em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
 }
 
 h1{
@@ -29,11 +39,10 @@ h2{
 	font-size: 2em;
 	font-weight: 400;
 	text-align: center;
-	padding-bottom: calc(10%)
+	padding-bottom: calc(-10%)
 }
 
 p{
-	font-family: Open Sans;
 	font-size: 1em;
 	font-weight: 400;
 	color: #5A5931;
@@ -45,7 +54,6 @@ img{
 }
 
 a{
-	font-family: Open Sans;
 	color: #777;
 }
 
