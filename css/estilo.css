@@ -5,7 +5,7 @@ body{
 	margin: 0;
 }
 
-body, header, section, div{
+header, section, div, footer{
 	display: block;
 }
 
@@ -52,6 +52,7 @@ h1{
     position: absolute;
     font-weight: 800;
     font-size: 2em;
+    color: #ccc;
     vertical-align: baseline;
 }
 
@@ -78,9 +79,27 @@ h1{
     padding: 0 0.5em;
 }
 
+.cajachica{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cajaderecha{
+	width: 60%;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.cajaizquierda{
+	width: 60%;
+	margin-right: auto;
+	margin-left: 0;
+}
+
 h2{
 	color: #801C30;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 400;
 	text-align: center;
 	padding-bottom: calc(-10%)
@@ -93,7 +112,7 @@ p{
 }
 
 img{
-	width: 80%;
+	width: 100%;
 	position: absolute;
 }
 
@@ -107,6 +126,6 @@ footer{
 	color: #5A5931;
 }
 
-
-
-
+#intro{
+	background:url("../img/docas 1.png") no-repeat fixed center bottom / cover rgba(0, 0, 0, 0), url("../img/follaje 1.png") no-repeat fixed center bottom / cover rgba(0, 0, 0, 0); 
+}
